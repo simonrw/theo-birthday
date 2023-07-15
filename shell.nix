@@ -3,5 +3,6 @@ with pkgs;
 mkShell {
   buildInputs = [
     hugo
+    python3
   ];
 }
